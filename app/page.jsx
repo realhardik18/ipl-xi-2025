@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
+  async const teamData=await fetch()
   const Teams=[]
   for(let i=0;i<10;i++){
     Teams.push("hardik")
